@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Manrope;
+}
+#home {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: url("/img/Frame 5196.png") center no-repeat;
+}
+.home-text {
+  width: 40%;
+}
+.btn-orange {
+  width: 170px;
+}
+.btn-orange {
+  /* background-color: #dea51b; */
+  background-image: linear-gradient(to right, #dea51b, #896308) !important;
+}
+.btn-orange:focus {
+  border: none;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+.btn-dorg {
+  width: 170px;
+  height: 60px;
+  color: #a5a5a5;
+  background-color: transparent !important;
+}
+
+.btn-dorg:focus {
+  width: 170px;
+  height: 60px;
+  background-color: #a78533 !important;
+}
+.btn-tab {
+  width: 380px;
+  height: 80px;
+
+  /* border-top-right-radius: 5%; */
+  /* background-color: red; */
+}
+.btn-tab:focus {
+  background: #a78533 !important;
+}
+.btn-acc {
+  background: #a78533 !important;
+}
+.accordion-item {
+  border: none !important;
+}
+.accordion-body {
+  background-color: transparent !important;
+}
+.text-blue {
+  color: #1b2a48;
+}
+.text-grey {
+  color: #8e8e8e;
+}
+.text-orange {
+  color: #dea51b;
+}
+.text-dblue {
+  color: #1b2a48;
+}
+th {
+  border-right: 5px solid white !important;
+}
+
+.bg-db {
+  color: white !important;
+  background-color: #1b2a48 !important;
+}
+#bg-blue {
+  background-color: #061d39;
+}
+#bg-blue {
+  color: white;
+}
+.REGAIN-img {
+  width: 400px !important;
+}
+.nav-link1 {
+  width: 300px !important;
+  background-color: #dea51b !important;
+}
+.pb-8 {
+  padding-bottom: 80px;
+}
+#take {
+  height: 50%;
+  background: url("/img/Rectangle 1256.png") center no-repeat;
+}
+#retreat {
+  height: 50%;
+  background: url("/img/Rectangle 1269.png") center;
+  object-fit: cover;
+}
+#Empower {
+  height: 50%;
+  background: url("/img/Rectangle 1287.png") center;
+  object-fit: cover;
+}
+#last {
+  height: 50%;
+  background: url("/img/Rectangle 1292.png") center;
+  object-fit: cover;
+}
+.fa {
+  /* height:; */
+  height: 1.5rem;
+  width: 1.5rem;
+  color: white;
+  background-color: #219126 !important;
+}
+.card-img {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.card-part-2 {
+  width: 25rem;
+}
+.img-man {
+  width: 500px;
+}
+.form {
+  background-color: #f4f4f4;
+}
+.accordion-button {
+  height: 70px !important;
+}
+.outer-box {
+  /* background-color: red; */
+}
+.inner-box {
+  /* background-color: red; */
+}
+.full-inner {
+  background-color: #f2f2f2;
+  width: 600px !important;
+}
+@media (min-width: 220px) and (max-width: 480px) {
+  #home {
+    padding-left: 25px;
+    height: 190%;
+    /* background-position: 65% 0% !important; */
+  }
+  .emp {
+    padding-top: 80px;
+  }
+  .home-text {
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 12px !important;
+  }
+  .logo {
+    margin-top: -20px;
+    width: 130px;
+  }
+  .card-4 {
+    padding: 0 1rem 4rem 1rem !important  ;
+  }
+  .home-text {
+    /* padding-top: 50px !important; */
+  }
+  .sd-text p {
+    padding: 30px 9px;
+    font-size: 16px !important;
+  }
+  .REGAIN-img {
+    width: 400px !important;
+  }
+  .home-text {
+    width: 80%;
+  }
+  .img-1 {
+    width: 390px;
+  }
+  .card-img {
+    gap: 10px;
+  }
+  .retreat-inner-text {
+    font-size: 20px !important;
+  }
+  .img-3 {
+    width: 390px;
+  }
+  .text-dblue {
+    font-size: 14px !important;
+  }
+  .td1 {
+    margin-top: 20px !important;
+  }
+  .Wellness-content {
+    padding: 10px !important;
+  }
+  .nav-link {
+    width: 100px;
+  }
+  .card-part-2 {
+    width: 18rem;
+  }
+  .join {
+    padding: 0% 2rem !important;
+  }
+  .img-man {
+    margin-top: 7.4rem !important;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+  .accordion-body {
+    background-color: transparent !important;
+  }
+  .tab-content {
+    margin-bottom: 60px !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .card-img {
+    height: 30rem;
+  }
+  .card-text {
+    /* text-align: justify; */
+    font-size: 11px;
+  }
+  .sd-text p {
+    font-size: 13px !important;
+  }
+  .img-pad {
+    padding-right: 5px !important;
+  }
+  .clinical {
+    font-size: 10px !important;
+  }
+  .card-part-2 {
+    height: 26rem;
+    width: 22rem;
+  }
+}
